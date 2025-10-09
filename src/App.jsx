@@ -11,7 +11,6 @@ const App = () => {
     <main>
       <Navbar />
       <Hero />
-      <section className="min-h-screen"></section>
     </main>
   );
 };
