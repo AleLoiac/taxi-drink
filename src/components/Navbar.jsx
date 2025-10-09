@@ -7,7 +7,7 @@ const Navbar = () => {
     const navTween = gsap.timeline({
       scrollTrigger: {
         trigger: "nav",
-        // first parameter refers to trigger, second one to the viewport, so when the bottom of the navbar reaches the top of the viewport start the animation
+        // First parameter refers to trigger, second one to the viewport, so when the bottom of the navbar reaches the top of the viewport start the animation
         start: "bottom top",
       },
     });
