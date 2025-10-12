@@ -24,10 +24,15 @@ const Cocktails = () => {
         x: -100,
         y: 100,
       })
-      .from("#c-right-leaf", {
-        x: 100,
-        y: 100,
-      });
+      .from(
+        "#c-right-leaf",
+        {
+          x: 100,
+          y: 100,
+        },
+        // The leaves are animated at the same time on mobile
+        isMobile ? "<" : null
+      );
   });
 
   return (
