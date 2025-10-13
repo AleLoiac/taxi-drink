@@ -138,34 +138,34 @@ const sliderLists = [
   {
     id: 1,
     name: "Classic Mojito",
-    image: "/images/drink1.png",
-    title: "Simple Ingredients, Bold Flavor",
+    image: "/images/mojito.png",
+    title: "Fresh, Minty, and Perfectly Balanced",
     description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+      "A refreshing mix of white rum, mint leaves, lime juice, sugar, and soda water. The Mojito delivers the perfect blend of sweetness, citrus, and cool mint for any occasion.",
   },
   {
     id: 2,
-    name: "Raspberry Mojito",
-    image: "/images/drink2.png",
-    title: "A Zesty Classic That Never Fails",
+    name: "Negroni",
+    image: "/images/negroni.png",
+    title: "Bold, Bitter, and Timeless",
     description:
-      "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+      "A perfectly balanced Italian classic made with gin, Campari, and sweet vermouth. The Negroni’s rich flavor and ruby color make it the ultimate aperitif for refined taste.",
   },
   {
     id: 3,
-    name: "Violet Breeze",
-    image: "/images/drink3.png",
-    title: "Simple Ingredients, Bold Flavor",
+    name: "Aperol Spritz",
+    image: "/images/spritz.png",
+    title: "Light, Sparkling, and Effortlessly Chic",
     description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+      "Combining Aperol, prosecco, and a splash of soda, the Spritz is the go-to drink for sunny afternoons. Bright, bubbly, and delightfully bittersweet.",
   },
   {
     id: 4,
-    name: "Curacao Mojito",
-    image: "/images/drink4.png",
-    title: "Crafted With Care, Poured With Love",
+    name: "Gin Tonic",
+    image: "/images/gin-tonic.png",
+    title: "Crisp, Simple, and Always Refreshing",
     description:
-      "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+      "A timeless mix of gin and tonic water served over ice with a slice of lime. Effortless to make yet endlessly satisfying, it’s the definition of classic cool.",
   },
 ];
 
