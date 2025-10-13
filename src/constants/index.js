@@ -149,7 +149,7 @@ const sliderLists = [
     image: "/images/negroni.png",
     title: "Bold, Bitter, and Timeless",
     description:
-      "A perfectly balanced Italian classic made with gin, Campari, and sweet vermouth. The Negroni’s rich flavor and ruby color make it the ultimate aperitif for refined taste.",
+      "A perfectly balanced Italian classic made with gin, Campari, and sweet vermouth. The Negroni's rich flavor and ruby color make it the ultimate aperitif for refined taste.",
   },
   {
     id: 3,
@@ -165,7 +165,7 @@ const sliderLists = [
     image: "/images/gin-tonic.png",
     title: "Crisp, Simple, and Always Refreshing",
     description:
-      "A timeless mix of gin and tonic water served over ice with a slice of lime. Effortless to make yet endlessly satisfying, it’s the definition of classic cool.",
+      "A timeless mix of gin and tonic water served over ice with a slice of lime. Effortless to make yet endlessly satisfying, it's the definition of classic cool.",
   },
 ];
 

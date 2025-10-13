@@ -57,12 +57,12 @@ const Menu = () => {
   return (
     <section id="menu" aria-labelledby="menu-heading">
       <img
-        src="/public/images/slider-left-leaf.png"
+        src="/images/slider-left-leaf.png"
         alt="left leaf"
         id="m-left-leaf"
       />
       <img
-        src="/public/images/slider-right-leaf.png"
+        src="/images/slider-right-leaf.png"
         alt="right leaf"
         id="m-right-leaf"
       />
@@ -99,7 +99,7 @@ const Menu = () => {
           >
             <span>{prevCocktail.name}</span>
             <img
-              src="/public/images/left-arrow.png"
+              src="/images/left-arrow.png"
               alt="left arrow"
               aria-hidden="true"
             />
@@ -111,7 +111,7 @@ const Menu = () => {
           >
             <span>{nextCocktail.name}</span>
             <img
-              src="/public/images/right-arrow.png"
+              src="/images/right-arrow.png"
               alt="right arrow"
               aria-hidden="true"
             />
@@ -120,7 +120,7 @@ const Menu = () => {
 
         <div className="cocktail">
           <img
-            src={"/public" + currentCocktail.image}
+            src={"" + currentCocktail.image}
             alt="selected cocktail"
             className="object-contain"
           />
@@ -128,7 +128,7 @@ const Menu = () => {
 
         <div className="recipe">
           <div ref={contentRef} className="info">
-            <p>Recipe for:</p>
+            <p>Reciipe for:</p>
             <p id="title">{currentCocktail.name}</p>
           </div>
 
