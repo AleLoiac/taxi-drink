@@ -28,7 +28,7 @@ const Navbar = () => {
     <nav>
       <div>
         <a href="#hero" className="flex items-center gap-2">
-          <img src="/images/logo.png" alt="logo" />
+          <img src="/images/logo.svg" alt="logo" className="w-[38px]" />
           <p>Taxi Drink</p>
         </a>
 
