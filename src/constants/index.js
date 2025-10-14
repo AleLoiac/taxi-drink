@@ -19,55 +19,55 @@ const navLinks = [
 
 const cocktailLists = [
   {
-    name: "Chapel Hill Shiraz",
-    country: "AU",
-    detail: "Battle",
-    price: "$10",
+    name: "Mojito",
+    country: "CU",
+    detail: "Cocktail",
+    price: "€8",
   },
   {
-    name: "Caten Malbee",
-    country: "AU",
-    detail: "Battle",
-    price: "$49",
+    name: "Negroni",
+    country: "IT",
+    detail: "Cocktail",
+    price: "€10",
   },
   {
-    name: "Rhino Pale Ale",
-    country: "CA",
-    detail: "750 ml",
-    price: "$20",
+    name: "Aperol Spritz",
+    country: "IT",
+    detail: "Cocktail",
+    price: "€10",
   },
   {
-    name: "Irish Guinness",
-    country: "IE",
-    detail: "600 ml",
-    price: "$29",
+    name: "Gin Tonic",
+    country: "IN",
+    detail: "Cocktail",
+    price: "€9",
   },
 ];
 
-const mockTailLists = [
+const bottleLists = [
   {
-    name: "Tropical Bloom",
-    country: "US",
-    detail: "Battle",
-    price: "$10",
+    name: "Rum Bianco",
+    country: "CU",
+    detail: "700 ml",
+    price: "€18",
   },
   {
-    name: "Passionfruit Mint",
-    country: "US",
-    detail: "Battle",
-    price: "$49",
+    name: "Bombay Sapphire",
+    country: "UK",
+    detail: "1000 ml",
+    price: "€25",
   },
   {
-    name: "Citrus Glow",
-    country: "CA",
-    detail: "750 ml",
-    price: "$20",
+    name: "Vodka",
+    country: "RU",
+    detail: "700 ml",
+    price: "€26",
   },
   {
-    name: "Lavender Fizz",
-    country: "IE",
-    detail: "600 ml",
-    price: "$29",
+    name: "Tequila Silver",
+    country: "MX",
+    detail: "700 ml",
+    price: "€22",
   },
 ];
 
@@ -172,7 +172,7 @@ const sliderLists = [
 export {
   navLinks,
   cocktailLists,
-  mockTailLists,
+  bottleLists,
   profileLists,
   featureLists,
   goodLists,

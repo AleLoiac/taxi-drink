@@ -1,5 +1,5 @@
 import { useGSAP } from "@gsap/react";
-import { cocktailLists, mockTailLists } from "../constants";
+import { cocktailLists, bottleLists } from "../constants";
 import gsap from "gsap";
 import { useMediaQuery } from "react-responsive";
 
@@ -68,10 +68,10 @@ const Cocktails = () => {
         </div>
 
         <div className="loved">
-          <h2>Most loved cocktails:</h2>
+          <h2>Most loved bottles:</h2>
 
           <ul>
-            {mockTailLists.map((drink) => (
+            {bottleLists.map((drink) => (
               <li key={drink.name}>
                 <div className="me-28">
                   <h3>{drink.name}</h3>
