@@ -5,7 +5,7 @@ import { useMediaQuery } from "react-responsive";
 
 const Cocktails = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
-  const startValue = isMobile ? "top top" : "top 30%";
+  const startValue = isMobile ? "top 10%" : "top 30%";
   const endValue = isMobile ? "bottom bottom" : "bottom 80%";
 
   useGSAP(() => {
@@ -15,7 +15,6 @@ const Cocktails = () => {
         start: startValue,
         end: endValue,
         scrub: true,
-        //markers: true,
       },
     });
 
