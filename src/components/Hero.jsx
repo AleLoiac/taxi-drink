@@ -48,24 +48,26 @@ const Hero = () => {
       .to(".right-leaf", { y: 200 }, 0)
       .to(".left-leaf", { y: -200 }, 0);
 
-    const startValue = isMobile ? "top 50%" : "center 60%";
+    if (!isMobile) {
+      const startValue = isMobile ? "top 50%" : "center 60%";
 
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: "video",
-        start: startValue,
-        endTrigger: "#cocktails", // track the cocktails section's scroll position
-        end: "bottom bottom",
-        scrub: true,
-        pin: true,
-      },
-    });
-
-    videoRef.current.onloadedmetadata = () => {
-      tl.to(videoRef.current, {
-        currentTime: videoRef.current.duration,
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: "video",
+          start: startValue,
+          endTrigger: "#cocktails", // track the cocktails section's scroll position
+          end: "bottom bottom",
+          scrub: true,
+          pin: true,
+        },
       });
-    };
+
+      videoRef.current.onloadedmetadata = () => {
+        tl.to(videoRef.current, {
+          currentTime: videoRef.current.duration,
+        });
+      };
+    }
   }, []);
 
   return (
@@ -106,15 +108,17 @@ const Hero = () => {
         </div>
       </section>
 
-      <div className="video absolute inset-0">
-        <video
-          ref={videoRef}
-          src="/videos/output.mp4"
-          muted
-          playsInline
-          preload="auto"
-        />
-      </div>
+      {!isMobile && (
+        <div className="video absolute inset-0">
+          <video
+            ref={videoRef}
+            src="/videos/output.mp4"
+            muted
+            playsInline
+            preload="auto"
+          />
+        </div>
+      )}
     </>
   );
 };
